@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <base href="/">
+    <title>AngularJS Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,300,400,600,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+
+    <!--[if lt IE 9]>
+            <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300" >
+            <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400" >
+            <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic" >
+            <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:600" >
+            <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:600italic" >
+            <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:700" >
+            <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:700italic" >
+
+            <link rel="stylesheet" type="text/css" href="../../css/non-min/embarkation/common/site_ie8.css" >
+            <script src="../lib/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
+
+    <!--[if (gte IE 9)|(IEMobile)|(!IE)]><!-->
+    <link rel="stylesheet" type="text/css" href="../assets/build/build.min.css">
+    <!--<![endif]-->
+    <script type="text/javascript" src="../assets/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/lib/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../assets/lib/angular.js"></script>
+    <script type="text/javascript" src="../assets/build/libraries.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+</head>
+
+<body data-ng-app="app">
+    <header>
+    </header>
+    <div class="page_container" id="page_container">
+        <div class="main_container" id="main_container">
+            <!--bind all the html pages-->
+            <h1>Welcome to AngularJS kickstarter application.</h1>
+            <data-ng-view></data-ng-view>
+            <!--bind all the html pages-->
+        </div>
+    </div>
+    <!-- Footer Start Here -->
+    <footer class="footer-container">
+    </footer>
+    <!-- Footer End Here -->
+
+    <!---Javascript Files Go Here -->
+</body>
+<script type="text/javascript" src="../assets/build/build.js"></script>
+
+</html>
